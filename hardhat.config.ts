@@ -127,12 +127,6 @@ task(
       );
     }
 
-    // Replace names in source files
-    // replaceInFile(
-    //   __dirname + "/../minting-dapp/src/scripts/lib/NftContractType.ts",
-    // CollectionConfig.contractName,
-    // taskArgs.newName
-    // );
     replaceInFile(
       path.join(
         __dirname,
@@ -146,21 +140,13 @@ task(
       CollectionConfig.contractName,
       taskArgs.newName
     );
-    // replaceInFile(
-    //   __dirname + "/config/CollectionConfig.ts",
-    // CollectionConfig.contractName,
-    // taskArgs.newName
-    // );
+
     replaceInFile(
       path.join(__dirname, "config", "CollectionConfig.ts"),
       CollectionConfig.contractName,
       taskArgs.newName
     );
-    // replaceInFile(
-    //   __dirname + "/lib/NftContractProvider.ts",
-    // CollectionConfig.contractName,
-    // taskArgs.newName
-    // );
+
     replaceInFile(
       path.join(__dirname, "lib", "NftContractProvider.ts"),
       CollectionConfig.contractName,
