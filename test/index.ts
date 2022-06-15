@@ -13,7 +13,7 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 chai.use(ChaiAsPromised);
 
 enum SaleType {
-  FREE = CollectionConfig.freeMint.price,
+  FREE = 0,
   WHITELIST = CollectionConfig.whitelistSale.price,
   PRE_SALE = CollectionConfig.preSale.price,
   PUBLIC_SALE = CollectionConfig.publicSale.price,

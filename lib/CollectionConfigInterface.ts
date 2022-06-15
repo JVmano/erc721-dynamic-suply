@@ -6,11 +6,6 @@ interface SaleConfig {
   maxperAddressPublicMint: number;
 }
 
-interface FreeMintConfig {
-  price: number;
-  maxperAddressFreeLimit: number;
-}
-
 export default interface CollectionConfigInterface {
   rinkeby: NetworkConfigInterface;
   ropsten: NetworkConfigInterface;
@@ -25,7 +20,6 @@ export default interface CollectionConfigInterface {
   maxFree: number;
   maxperAddressFreeLimit: number;
   maxperAddressPublicMint: number;
-  freeMint: FreeMintConfig;
   whitelistSale: SaleConfig;
   preSale: SaleConfig;
   publicSale: SaleConfig;

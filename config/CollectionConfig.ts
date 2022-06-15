@@ -18,10 +18,6 @@ const CollectionConfig: CollectionConfigInterface = {
   maxperAddressPublicMint: 5,
   maxSupply: 200,
   maxFree: 50, // * use 0 if doesn't want to have free mint on your project
-  freeMint: {
-    price: 0,
-    maxperAddressFreeLimit: 1,
-  },
   whitelistSale: {
     price: 0.005,
     maxperAddressPublicMint: 1,
