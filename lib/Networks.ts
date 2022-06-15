@@ -28,6 +28,42 @@ export const ethereumTestnet: NetworkConfigInterface = {
   },
 };
 
+export const ethereumRopsten: NetworkConfigInterface = {
+  chainId: 3,
+  symbol: "ETH (test)",
+  blockExplorer: {
+    name: "Etherscan (Ropsten)",
+    generateContractUrl: (contractAddress: string) =>
+      `https://ropsten.etherscan.io/address/${contractAddress}`,
+    generateTransactionUrl: (transactionAddress: string) =>
+      `https://ropsten.etherscan.io/tx/${transactionAddress}`,
+  },
+};
+
+export const ethereumKovan: NetworkConfigInterface = {
+  chainId: 42,
+  symbol: "ETH (test)",
+  blockExplorer: {
+    name: "Etherscan (Kovan)",
+    generateContractUrl: (contractAddress: string) =>
+      `https://kovan.etherscan.io/address/${contractAddress}`,
+    generateTransactionUrl: (transactionAddress: string) =>
+      `https://kovan.etherscan.io/tx/${transactionAddress}`,
+  },
+};
+
+export const ethereumGoerli: NetworkConfigInterface = {
+  chainId: 6284,
+  symbol: "ETH (test)",
+  blockExplorer: {
+    name: "Etherscan (Goerli)",
+    generateContractUrl: (contractAddress: string) =>
+      `https://goerli.etherscan.io/address/${contractAddress}`,
+    generateTransactionUrl: (transactionAddress: string) =>
+      `https://goerli.etherscan.io/tx/${transactionAddress}`,
+  },
+};
+
 export const ethereumMainnet: NetworkConfigInterface = {
   chainId: 1,
   symbol: "ETH",

@@ -12,7 +12,10 @@ interface FreeMintConfig {
 }
 
 export default interface CollectionConfigInterface {
-  testnet: NetworkConfigInterface;
+  rinkeby: NetworkConfigInterface;
+  ropsten: NetworkConfigInterface;
+  kovan: NetworkConfigInterface;
+  goerli: NetworkConfigInterface;
   mainnet: NetworkConfigInterface;
   contractName: string;
   tokenName: string;

@@ -4,7 +4,10 @@ import * as Marketplaces from "../lib/Marketplaces";
 import whitelistAddresses from "./whitelist.json";
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
+  rinkeby: Networks.ethereumTestnet,
+  ropsten: Networks.ethereumRopsten,
+  kovan: Networks.ethereumKovan,
+  goerli: Networks.ethereumGoerli,
   mainnet: Networks.ethereumMainnet,
   // use yarn rename-contract NEW_CONTRACT_NAME
   contractName: "NftContract",
