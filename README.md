@@ -30,5 +30,7 @@ The idea of this project was to simpy study solidity and how this can be functio
 ## Disclaimer
 This code was **heavily** based on [Hashlips smart contract repository](https://github.com/hashlips-lab/nft-erc721-collection/tree/main/smart-contract) so give a star on that project too!
 
+Special thanks to Liarco and Daniel (Hashlips) by creating a very intuitive guide for beguinners.
+
 ## Found a bug?
 Create a issue in the repo or simply create a pull request with the solution and a description about it (I'll thank a lot)
