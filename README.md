@@ -10,7 +10,11 @@ The package.json file have all the commands to operate this project but here's a
 1. Install the dependencies with ``yarn install`` or ``npm install``.
 2. Set up the information needed described above.
 3. Use ``yarn deploy --network [testnet or mainnet]`` to deploy the contract to a network.
-4. Verify the deployed contract with ``yarn verify [given contract address by deploy command] --network [network used above]``
+4. Verify the deployed contract with:
+
+```yarn verify [given contract address by deploy command] --network [network used above]```
+
+
 5. There's three stage that can be used in contract like:
 
   ```yarn whitelist-open --network [network]```
