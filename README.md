@@ -25,7 +25,7 @@ For all these commands there are a close stage option by changing open to close 
 7. Finally to withdraw the ETH from the contract wallet use ``yarn withdraw --network [network]``
 
 ## Why?
-The idea of this project was to simpy study solidity and how this can be functional in real world NFT collections although this project can be used in production, this ins't the best code possible and can enhanced in the future.
+The idea of this project was to simpy study solidity and how this can be functional in real world NFT collections although this project can be used in production, this isn't the best code possible and can enhanced in the future.
 
 ## Disclaimer
 This code was **heavily** based on [Hashlips smart contract repository](https://github.com/hashlips-lab/nft-erc721-collection/tree/main/smart-contract) so give a star on that project too!
