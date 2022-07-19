@@ -131,7 +131,7 @@ task(
       path.join(
         __dirname,
         "..",
-        "minting-dapp",
+        "minting-nft-dapp",
         "src",
         "scripts",
         "lib",
