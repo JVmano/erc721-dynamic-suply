@@ -102,13 +102,12 @@ task(
       );
     }
 
-    // const oldContractFile = `${__dirname}/contracts/${CollectionConfig.contractName}.sol`;
     const oldContractFile = path.join(
       __dirname,
       "contracts",
       `${CollectionConfig.contractName}.sol`
     );
-    // const newContractFile = `${__dirname}/contracts/${taskArgs.newName}.sol`;
+
     const newContractFile = path.join(
       __dirname,
       "contracts",
@@ -127,6 +126,8 @@ task(
       );
     }
 
+    // replace contract name in a default dApp location
+    // comment this if ins't needed
     replaceInFile(
       path.join(
         __dirname,
